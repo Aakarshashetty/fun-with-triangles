@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+body{
+    background: url("/images/background.jpg");
+    background-size: 1367px 680px;
+    background-repeat: no-repeat;
+    color: #8b5e34;
+    font-family: 'Aboreto', cursive;
+    /* max-width: 500px; */
+}
+header h1{
+    background-image: linear-gradient(to right,#bc8a5f, #a47148, #8b5e34, #6f4518);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    padding: 1rem 2rem;
+}
+.para{
+    font-size: 20px;
+    text-align: left;
+    padding: 0rem 1rem;
+}
+.section{
+    max-width: 500px;
+}
+a{
+   text-decoration: none;
+   display: inline-block;
+   margin: 10px 70px;
+   border: 2px solid #8b5e34;
+   text-align: center;
+   padding: 1rem 1rem;
+   color: #6f4518;
+   border-radius: 0.5rem;
+   max-width: 300px;
+}
+a:hover{
+    background-color: #8b5e34;
+    color: #001f54;
+    font-weight: bold;
+}
+.footer-insider{
+    text-align: center;
+    font-weight: bold;
+    /* margin: 0px 600px; */
+    margin: 30px;
+    margin-bottom: 10px;
+}
+.link{
+    margin: 10px 10px;
+    border-radius: 10rem;
+}
+.social{
+    text-align: center;
+}
