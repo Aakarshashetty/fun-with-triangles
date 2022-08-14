@@ -7,7 +7,7 @@ const claculateHypotenuse = ()=>{
     if(sides[0].value && sides[1].value !== null){
         const res =  (Math.sqrt((sides[0].value ** 2) + (sides[1].value**2)));
     //console.log(res);
-        displayUI(res);
+        displayUI(res.toFixed(4));
     }else{
         output.innerText = "Please Enter valid Input😐";
     }
