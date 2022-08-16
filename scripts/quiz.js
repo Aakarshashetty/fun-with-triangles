@@ -16,6 +16,7 @@ const calculateScore = () => {
     });
 };
 const displayUI = (score)=>{
+    scrollTo(0,1e9);
     let html = `Your score is ${score}`;
     output.innerText = html;
 };

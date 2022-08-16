@@ -32,6 +32,7 @@ a{
    color: #6f4518;
    border-radius: 0.5rem;
    max-width: 300px;
+   font-weight: bold;
 }
 a:hover{
     background-color: #8b5e34;
