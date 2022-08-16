@@ -7,14 +7,6 @@ body{
     font-size: 25px;
     font-weight: bold;
 }
-h1{
-    background-image: linear-gradient(to right,#bc8a5f, #a47148, #8b5e34, #6f4518);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 40px;
-    padding: 1rem 2rem;
-    margin-left: 0px;
-}
 .container{
     max-width: 400px;
     margin: auto;
@@ -31,12 +23,13 @@ input{
     color: #8b5e34;
     font-size: 15px;
     font-weight: bold;
+    text-align: center;
 }
 label{
     font-size: 20px;
-    padding: 0rem 1rem;
+    padding: 0rem 4rem;
 }
-.btn{
+.calc-btn{
     text-align: center;
     padding: 1rem 1rem;
     background: transparent;
@@ -44,12 +37,12 @@ label{
     border-radius: 0.5rem;
     color: #8b5e34;
     font-size: 15px;
-    margin: 10px 130px;
+    margin: 10px 60px;
     cursor: pointer;
     font-weight: bold;
     font-family: 'Aboreto', cursive;
 }
-.btn:hover{
+.calc-btn:hover{
     background-color: #8b5e34;
     color: #001f54;
     font-weight: bold;
